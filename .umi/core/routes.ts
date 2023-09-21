@@ -220,7 +220,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useDebounce/index.md",
-          "updatedTime": 1695284561849,
+          "updatedTime": 1695286746000,
           "nav": {
             "path": "/hooks",
             "title": "UseDebounce"
@@ -247,7 +247,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useLatest/index.md",
-          "updatedTime": 1695283671680,
+          "updatedTime": 1695286746000,
           "nav": {
             "path": "/hooks",
             "title": "UseLatest"
@@ -274,7 +274,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useTitle/index.md",
-          "updatedTime": 1695282869151,
+          "updatedTime": 1695286746000,
           "nav": {
             "path": "/hooks",
             "title": "UseTitle"
