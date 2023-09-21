@@ -68,7 +68,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1695045693420,
+          "updatedTime": 1695089693000,
           "title": "首页",
           "hero": {
             "image": "/short-logo.png",
@@ -111,7 +111,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/guide/index.md",
-          "updatedTime": 1695045662162,
+          "updatedTime": 1695089693000,
           "slugs": [
             {
               "depth": 1,
@@ -193,7 +193,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useBoolean/index.md",
-          "updatedTime": 1695044826372,
+          "updatedTime": 1695089693000,
           "nav": {
             "path": "/hooks",
             "title": "UseBoolean"
@@ -215,12 +215,93 @@ export function getRoutes() {
         "title": "useBoolean - react hooks"
       },
       {
+        "path": "/hooks/use-debounce",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useDebounce__index.md' */'/Users/yangqianlu/Desktop/hooks实战练习/qianHooks/packages/hooks/src/useDebounce/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useDebounce/index.md",
+          "updatedTime": 1695284561849,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseDebounce"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useDebounce",
+              "heading": "usedebounce"
+            }
+          ],
+          "title": "useDebounce",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-debounce",
+            "title": "UseDebounce"
+          }
+        },
+        "title": "useDebounce - react hooks"
+      },
+      {
+        "path": "/hooks/use-latest",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useLatest__index.md' */'/Users/yangqianlu/Desktop/hooks实战练习/qianHooks/packages/hooks/src/useLatest/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useLatest/index.md",
+          "updatedTime": 1695283671680,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseLatest"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useLatest",
+              "heading": "uselatest"
+            }
+          ],
+          "title": "useLatest",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-latest",
+            "title": "UseLatest"
+          }
+        },
+        "title": "useLatest - react hooks"
+      },
+      {
+        "path": "/hooks/use-title",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useTitle__index.md' */'/Users/yangqianlu/Desktop/hooks实战练习/qianHooks/packages/hooks/src/useTitle/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useTitle/index.md",
+          "updatedTime": 1695282869151,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseTitle"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useTitle",
+              "heading": "usetitle"
+            }
+          ],
+          "title": "useTitle",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-title",
+            "title": "UseTitle"
+          }
+        },
+        "title": "useTitle - react hooks"
+      },
+      {
         "path": "/hooks/use-toggle",
         "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useToggle__index.md' */'/Users/yangqianlu/Desktop/hooks实战练习/qianHooks/packages/hooks/src/useToggle/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useToggle/index.md",
-          "updatedTime": 1695043342454,
+          "updatedTime": 1695089693000,
           "nav": {
             "path": "/hooks",
             "title": "UseToggle"
