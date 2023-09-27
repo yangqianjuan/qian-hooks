@@ -37,6 +37,15 @@
           ]
         },
         {
+          "title": "请求",
+          "children": [
+            {
+              "path": "/hooks/use-request/index",
+              "title": "快速上手"
+            }
+          ]
+        },
+        {
           "title": "DOM",
           "children": [
             {

@@ -274,7 +274,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useMemorizedFn/index.md",
-          "updatedTime": 1695783527460,
+          "updatedTime": 1695783657000,
           "nav": {
             "path": "/hooks",
             "title": "UseMemorizedFn"
@@ -288,6 +288,33 @@ export function getRoutes() {
           "title": "UseMemorizedFn"
         },
         "title": "UseMemorizedFn - react hooks"
+      },
+      {
+        "path": "/hooks/use-request/index",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useRequest__doc__index__index.md' */'/Users/yangqianlu/Desktop/hooks实战练习/qianHooks/packages/hooks/src/useRequest/doc/index/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useRequest/doc/index/index.md",
+          "updatedTime": 1695803754617,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseRequest"
+          },
+          "group": {
+            "path": "/hooks/use-request",
+            "title": "Doc"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "快速上手",
+              "heading": "快速上手"
+            }
+          ],
+          "title": "快速上手",
+          "hasPreviewer": true
+        },
+        "title": "快速上手 - react hooks"
       },
       {
         "path": "/hooks/use-title",
@@ -349,7 +376,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useUpdate/index.md",
-          "updatedTime": 1695782528864,
+          "updatedTime": 1695783657000,
           "nav": {
             "path": "/hooks",
             "title": "UseUpdate"
@@ -375,6 +402,12 @@ export function getRoutes() {
         "meta": {},
         "exact": true,
         "redirect": "/hooks/use-toggle"
+      },
+      {
+        "path": "/hooks/use-request",
+        "meta": {},
+        "exact": true,
+        "redirect": "/hooks/use-request/index"
       }
     ],
     "title": "react hooks",
