@@ -25,6 +25,31 @@
             {
               "path": "/hooks/use-boolean",
               "title": "useBoolean"
+            },
+            {
+              "path": "/hooks/use-latest",
+              "title": "useLatest"
+            },
+            {
+              "path": "/hooks/use-memorized-fn",
+              "title": "UseMemorizedFn"
+            }
+          ]
+        },
+        {
+          "title": "DOM",
+          "children": [
+            {
+              "path": "/hooks/use-title",
+              "title": "useTitle"
+            },
+            {
+              "path": "/hooks/use-debounce",
+              "title": "useDebounce"
+            },
+            {
+              "path": "/hooks/use-update",
+              "title": "useUpdate"
             }
           ]
         }

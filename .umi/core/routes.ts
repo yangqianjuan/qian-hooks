@@ -269,6 +269,27 @@ export function getRoutes() {
         "title": "useLatest - react hooks"
       },
       {
+        "path": "/hooks/use-memorized-fn",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useMemorizedFn__index.md' */'/Users/yangqianlu/Desktop/hooks实战练习/qianHooks/packages/hooks/src/useMemorizedFn/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useMemorizedFn/index.md",
+          "updatedTime": 1695783527460,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseMemorizedFn"
+          },
+          "slugs": [],
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-memorized-fn",
+            "title": "UseMemorizedFn"
+          },
+          "title": "UseMemorizedFn"
+        },
+        "title": "UseMemorizedFn - react hooks"
+      },
+      {
         "path": "/hooks/use-title",
         "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useTitle__index.md' */'/Users/yangqianlu/Desktop/hooks实战练习/qianHooks/packages/hooks/src/useTitle/index.md')}),
         "exact": true,
@@ -321,6 +342,33 @@ export function getRoutes() {
           }
         },
         "title": "useToggle - react hooks"
+      },
+      {
+        "path": "/hooks/use-update",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useUpdate__index.md' */'/Users/yangqianlu/Desktop/hooks实战练习/qianHooks/packages/hooks/src/useUpdate/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useUpdate/index.md",
+          "updatedTime": 1695782528864,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseUpdate"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useUpdate",
+              "heading": "useupdate"
+            }
+          ],
+          "title": "useUpdate",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-update",
+            "title": "UseUpdate"
+          }
+        },
+        "title": "useUpdate - react hooks"
       },
       {
         "path": "/hooks",
